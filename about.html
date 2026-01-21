@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .head{
+            text-align: center;
+        }
+       .head h1{
+        padding-left:0;
+       }
+       .abs{
+         padding-left:0;
+
+       }
+       .cards{
+        display: flex;
+        justify-content:space-between;
+        gap: 30px;
+        padding: 40px 80px;
+       }
+       .card{
+        width: 30%;
+         padding: 25px;
+         box-sizing:border-box ;
+         background-color: #f8f6f2; 
+         box-shadow:  0 8px 25px rgba(0,0,0,0.08);
+         border-radius: 18px;
+         transition: all 0.3s ease;
+         
+       }
+       .cards h2{
+        text-align: center;
+        margin-bottom: 15px;
+       }
+       .card p
+       .card ul{
+        text-align: center;
+        line-height: 1.5;
+       }
+        .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        @media (max-width: 600px) {
+
+  .cards{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card{
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .cards{
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+  }
+
+  .card{
+    width: 45%;
+  }
+}
+
+
+    
+       
+    </style>
+</head>
+<body>
+     <nav>
+    <div >
+        <ul class="sty" >
+          <li class="but">VibeCart 🛍️</li>
+            <li> <a href="/index.html">Home</a></li>
+                 <li> <a href="/about.html">about</a></li>
+                  <li><a href="/login.html">Login</a></li>
+                <li><a href="/contact.html">contact</a></li>
+                
+            </ul>
+         </div>
+    <hr>
+    </nav>
+    <div class="home">
+        <div class="head">
+           
+        <h1>About us</h1>
+        <p class="abs">We are passionate about delivering quality fashion and style for everyone.</p>
+</div>
+    <div class=" cards">
+        <div class="card">
+            <h2>
+                Who We Are
+            </h2>
+            <p>We are a modern fashion brand offering stylish, comfortable, and quality clothing for women, men, and kids.</p>
+
+        </div>
+        <div class="card">
+            <h2>
+                Our Mission
+            </h2>
+            <p>
+                Providing trendy fashion with comfort and quality for all
+            </p>
+
+        </div>
+        <div class="card">
+            <h2>who Choose Us</h2>
+            <ul>
+                <li>Quality Products</li>
+                <li> Affordable Price</li>
+                <li> Trusted Service</li>
+            </ul>
+
+        </div>
+    </div>
+     <div class="footer">
+      <div class="vbc">
+         <h2> <b> VibeCart 🛍️</b>  </h2>
+       <p>Visit us for the perfect look, every occasion.</p>
+       <div class="emog">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+       </div>
+       <p> vibrcart@gmail.com</p>
+      </div>
+      <div class="mct">
+        <h3>
+         My Account
+        </h3>
+        <li>home</li>
+        <li>about </li>
+        <li>login</li>
+         <li>contact</li> 
+         </div>
+         <div class="mct">
+          <h3>Category</h3>
+           <li>Men</li>
+        <li>Women</li>
+        <li>Kids</li>
+         <li>New Arrivals</li>
+         <li>Best seller</li>
+        </div>
+        <div class="mct">
+         <h3> Contact Us</h3>
+         <div class="emog">
+         <li>
+          <i class="bi bi-geo-alt-fill"></i>123 street, trafort, UK
+         </li>
+         <li><i class="bi bi-envelope-at"></i>vibecart@gmail.com</li>
+         <li><i class="bi bi-telephone"></i>+456 789 001</li></div>
+        </div>
+    </div>
+    
+</body>
+</html>
